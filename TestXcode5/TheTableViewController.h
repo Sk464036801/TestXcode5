@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TheTableViewController.h
 //  TestXcode5
 //
 //  Created by Albert Chu on 13-9-19.
@@ -8,11 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-- (IBAction)generalBtnPressed:(id)sender;
-
-- (IBAction)tabVBtnPressed:(id)sender;
-
+@interface TheTableViewController : UIViewController
 
 @end

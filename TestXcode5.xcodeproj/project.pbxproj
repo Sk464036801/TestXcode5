@@ -21,6 +21,18 @@
 		5022C3BC17EAB26300F72894 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5022C39E17EAB26200F72894 /* UIKit.framework */; };
 		5022C3C417EAB26300F72894 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5022C3C217EAB26300F72894 /* InfoPlist.strings */; };
 		5022C3C617EAB26300F72894 /* TestXcode5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5022C3C517EAB26300F72894 /* TestXcode5Tests.m */; };
+		5022C3D217EAC5F000F72894 /* GeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5022C3D017EAC5F000F72894 /* GeneralViewController.m */; };
+		5022C3D317EAC5F000F72894 /* GeneralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5022C3D117EAC5F000F72894 /* GeneralViewController.xib */; };
+		5022C3DA17EAE38E00F72894 /* BackwardCompatibilityCGRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 5022C3D917EAE38E00F72894 /* BackwardCompatibilityCGRect.m */; };
+		5022C3DB17EAE38E00F72894 /* BackwardCompatibilityCGRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 5022C3D917EAE38E00F72894 /* BackwardCompatibilityCGRect.m */; };
+		5022C3DD17EAF1F600F72894 /* btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5022C3DC17EAF1F600F72894 /* btn.png */; };
+		5022C3DE17EAF1F600F72894 /* btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5022C3DC17EAF1F600F72894 /* btn.png */; };
+		50595FF817EB289100ECA54B /* nav_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 50595FF617EB289100ECA54B /* nav_bar.png */; };
+		50595FF917EB289100ECA54B /* nav_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 50595FF617EB289100ECA54B /* nav_bar.png */; };
+		50595FFA17EB289100ECA54B /* nav_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50595FF717EB289100ECA54B /* nav_bar@2x.png */; };
+		50595FFB17EB289100ECA54B /* nav_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50595FF717EB289100ECA54B /* nav_bar@2x.png */; };
+		50595FFE17EB2BE600ECA54B /* TheTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50595FFD17EB2BE600ECA54B /* TheTableViewController.m */; };
+		50595FFF17EB2BE600ECA54B /* TheTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50595FFD17EB2BE600ECA54B /* TheTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +65,17 @@
 		5022C3C117EAB26300F72894 /* TestXcode5Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestXcode5Tests-Info.plist"; sourceTree = "<group>"; };
 		5022C3C317EAB26300F72894 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5022C3C517EAB26300F72894 /* TestXcode5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestXcode5Tests.m; sourceTree = "<group>"; };
+		5022C3CF17EAC5F000F72894 /* GeneralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralViewController.h; sourceTree = "<group>"; };
+		5022C3D017EAC5F000F72894 /* GeneralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralViewController.m; sourceTree = "<group>"; };
+		5022C3D117EAC5F000F72894 /* GeneralViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralViewController.xib; sourceTree = "<group>"; };
+		5022C3D417EAC8A900F72894 /* ACMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMacros.h; sourceTree = "<group>"; };
+		5022C3D817EAE38E00F72894 /* BackwardCompatibilityCGRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackwardCompatibilityCGRect.h; sourceTree = "<group>"; };
+		5022C3D917EAE38E00F72894 /* BackwardCompatibilityCGRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackwardCompatibilityCGRect.m; sourceTree = "<group>"; };
+		5022C3DC17EAF1F600F72894 /* btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn.png; sourceTree = "<group>"; };
+		50595FF617EB289100ECA54B /* nav_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_bar.png; sourceTree = "<group>"; };
+		50595FF717EB289100ECA54B /* nav_bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_bar@2x.png"; sourceTree = "<group>"; };
+		50595FFC17EB2BE600ECA54B /* TheTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheTableViewController.h; sourceTree = "<group>"; };
+		50595FFD17EB2BE600ECA54B /* TheTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +135,22 @@
 		5022C3A017EAB26200F72894 /* TestXcode5 */ = {
 			isa = PBXGroup;
 			children = (
+				5022C3D817EAE38E00F72894 /* BackwardCompatibilityCGRect.h */,
+				5022C3D917EAE38E00F72894 /* BackwardCompatibilityCGRect.m */,
+				5022C3D417EAC8A900F72894 /* ACMacros.h */,
 				5022C3A917EAB26200F72894 /* AppDelegate.h */,
 				5022C3AA17EAB26200F72894 /* AppDelegate.m */,
 				5022C3AC17EAB26200F72894 /* Main.storyboard */,
 				5022C3AF17EAB26200F72894 /* ViewController.h */,
 				5022C3B017EAB26200F72894 /* ViewController.m */,
+				5022C3CF17EAC5F000F72894 /* GeneralViewController.h */,
+				5022C3D017EAC5F000F72894 /* GeneralViewController.m */,
+				5022C3D117EAC5F000F72894 /* GeneralViewController.xib */,
+				50595FFC17EB2BE600ECA54B /* TheTableViewController.h */,
+				50595FFD17EB2BE600ECA54B /* TheTableViewController.m */,
+				50595FF617EB289100ECA54B /* nav_bar.png */,
+				50595FF717EB289100ECA54B /* nav_bar@2x.png */,
+				5022C3DC17EAF1F600F72894 /* btn.png */,
 				5022C3B217EAB26200F72894 /* Images.xcassets */,
 				5022C3A117EAB26200F72894 /* Supporting Files */,
 			);
@@ -229,8 +263,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5022C3B317EAB26200F72894 /* Images.xcassets in Resources */,
+				5022C3D317EAC5F000F72894 /* GeneralViewController.xib in Resources */,
 				5022C3A517EAB26200F72894 /* InfoPlist.strings in Resources */,
 				5022C3AE17EAB26200F72894 /* Main.storyboard in Resources */,
+				5022C3DD17EAF1F600F72894 /* btn.png in Resources */,
+				50595FFA17EB289100ECA54B /* nav_bar@2x.png in Resources */,
+				50595FF817EB289100ECA54B /* nav_bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +276,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50595FFB17EB289100ECA54B /* nav_bar@2x.png in Resources */,
 				5022C3C417EAB26300F72894 /* InfoPlist.strings in Resources */,
+				5022C3DE17EAF1F600F72894 /* btn.png in Resources */,
+				50595FF917EB289100ECA54B /* nav_bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +291,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5022C3B117EAB26200F72894 /* ViewController.m in Sources */,
+				50595FFE17EB2BE600ECA54B /* TheTableViewController.m in Sources */,
+				5022C3D217EAC5F000F72894 /* GeneralViewController.m in Sources */,
+				5022C3DA17EAE38E00F72894 /* BackwardCompatibilityCGRect.m in Sources */,
 				5022C3AB17EAB26200F72894 /* AppDelegate.m in Sources */,
 				5022C3A717EAB26200F72894 /* main.m in Sources */,
 			);
@@ -259,6 +303,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5022C3DB17EAE38E00F72894 /* BackwardCompatibilityCGRect.m in Sources */,
+				50595FFF17EB2BE600ECA54B /* TheTableViewController.m in Sources */,
 				5022C3C617EAB26300F72894 /* TestXcode5Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,7 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -367,7 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -460,6 +506,7 @@
 				5022C3CB17EAB26300F72894 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5022C3CC17EAB26300F72894 /* Build configuration list for PBXNativeTarget "TestXcode5Tests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +515,7 @@
 				5022C3CE17EAB26300F72894 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
