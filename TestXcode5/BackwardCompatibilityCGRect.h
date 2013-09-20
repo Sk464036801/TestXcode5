@@ -26,10 +26,10 @@ typedef enum
 } ScrollView_With;
 
 #define ScrollView_Height_With_NavBar          \
-[[BackwardCompatibilityCGRect sharedInstance] backwardCompatibilityCGRectBy:ScrollView_With_NavBar]
+[[BackwardCompatibilityCGRect sharedInstance] backwardCompatibilityScrollViewHeightBy:ScrollView_With_NavBar]
 
 #define ScrollView_Height_With_NavBar_TabBar   \
-[[BackwardCompatibilityCGRect sharedInstance] backwardCompatibilityCGRectBy:ScrollView_With_NavBar_TabBar]
+[[BackwardCompatibilityCGRect sharedInstance] backwardCompatibilityScrollViewHeightBy:ScrollView_With_NavBar_TabBar]
 
 
 @interface BackwardCompatibilityCGRect : NSObject
@@ -38,6 +38,6 @@ typedef enum
 
 - (CGRect)backwardCompatibilityCGRectBy:(CGFloat)x and:(CGFloat)y and:(CGFloat)w and:(CGFloat)h;
 
-- (CGFloat)backwardCompatibilityCGRectBy:(NSInteger)type;
+- (CGFloat)backwardCompatibilityScrollViewHeightBy:(NSInteger)type;
 
 @end

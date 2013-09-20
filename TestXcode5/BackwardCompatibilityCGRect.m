@@ -36,7 +36,7 @@
     }
 }
 
-- (CGFloat)backwardCompatibilityCGRectBy:(NSInteger)type
+- (CGFloat)backwardCompatibilityScrollViewHeightBy:(NSInteger)type
 {
     if ( SystemVersion_floatValue < 7.f )
     {
