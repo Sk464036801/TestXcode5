@@ -36,4 +36,27 @@
     }
 }
 
+- (CGFloat)backwardCompatibilityCGRectBy:(NSInteger)type
+{
+    if ( SystemVersion_floatValue < 7.f )
+    {
+        switch (type)
+        {
+            case ScrollView_With_NavBar:
+                return (Screen_Height - 64.f);
+                break;
+                
+            case ScrollView_With_NavBar_TabBar:
+                return (Screen_Height - 64.f - 52.f);
+                break;
+        }
+        return 0;
+    }
+    
+    else
+    {
+        return Screen_Height;
+    }
+}
+
 @end

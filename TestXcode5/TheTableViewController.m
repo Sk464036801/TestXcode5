@@ -53,7 +53,7 @@
     
     //-- 表视图 -----------------------------------------------------------------------------------
     tableView_ =
-    [[UITableView alloc] initWithFrame:CGRectMake(0, 80, App_Frame_Width, Screen_Height-164)
+    [[UITableView alloc] initWithFrame:CGRectMake(0, 0, App_Frame_Width, ScrollView_Height_With_NavBar)
                                  style:UITableViewStylePlain];
     
     tableView_.backgroundColor = [UIColor blueColor];

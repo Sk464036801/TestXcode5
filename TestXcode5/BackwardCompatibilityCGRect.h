@@ -8,17 +8,36 @@
 
 #import <Foundation/Foundation.h>
 
-#define Screen_Height   ([[UIScreen mainScreen] applicationFrame].size.height + 20.f)
 
 #define SystemVersion_floatValue    ([[[UIDevice currentDevice] systemVersion] floatValue])
 
+
 #define CGRM_BC(x, y, w, h)     \
 [[BackwardCompatibilityCGRect sharedInstance] backwardCompatibilityCGRectBy:(x+0.f) and:(y+0.f) and:(w+0.f) and:(h+0.f)]
+
+
+#define Screen_Height   ([[UIScreen mainScreen] applicationFrame].size.height + 20.f)
+
+
+typedef enum
+{
+    ScrollView_With_NavBar = 116799992,
+    ScrollView_With_NavBar_TabBar
+} ScrollView_With;
+
+#define ScrollView_Height_With_NavBar          \
+[[BackwardCompatibilityCGRect sharedInstance] backwardCompatibilityCGRectBy:ScrollView_With_NavBar]
+
+#define ScrollView_Height_With_NavBar_TabBar   \
+[[BackwardCompatibilityCGRect sharedInstance] backwardCompatibilityCGRectBy:ScrollView_With_NavBar_TabBar]
+
 
 @interface BackwardCompatibilityCGRect : NSObject
 
 + (BackwardCompatibilityCGRect *)sharedInstance;
 
 - (CGRect)backwardCompatibilityCGRectBy:(CGFloat)x and:(CGFloat)y and:(CGFloat)w and:(CGFloat)h;
+
+- (CGFloat)backwardCompatibilityCGRectBy:(NSInteger)type;
 
 @end
