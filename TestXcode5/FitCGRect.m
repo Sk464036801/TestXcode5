@@ -6,16 +6,18 @@
 //  Copyright (c) 2013年 Albert Chu. All rights reserved.
 //
 
-#import "BackwardCompatibilityCGRect.h"
+#import "FitCGRect.h"
 
-@implementation BackwardCompatibilityCGRect
+
+@implementation FitCGRect
+
 
 #pragma mark - Singleton
 
-+ (BackwardCompatibilityCGRect *)sharedInstance
++ (FitCGRect *)sharedInstance
 {
     static dispatch_once_t pred;
-    static BackwardCompatibilityCGRect *sharedInstance = nil;
+    static FitCGRect *sharedInstance = nil;
     
     dispatch_once(&pred, ^{
         sharedInstance = [[self alloc] init];
@@ -24,7 +26,10 @@
     return sharedInstance;
 }
 
-- (CGRect)backwardCompatibilityCGRectBy:(CGFloat)x and:(CGFloat)y and:(CGFloat)w and:(CGFloat)h
+
+#pragma mark - Public Methods
+
+- (CGRect)fitCGRectInNavBy:(CGFloat)x and:(CGFloat)y and:(CGFloat)w and:(CGFloat)h
 {
     if ( SystemVersion_floatValue >= 7.f )
     {
@@ -36,7 +41,19 @@
     }
 }
 
-- (CGFloat)backwardCompatibilityScrollViewHeightBy:(NSInteger)type
+- (CGRect)fitCGRectBy:(CGFloat)x and:(CGFloat)y and:(CGFloat)w and:(CGFloat)h
+{
+    if ( SystemVersion_floatValue >= 7.f )
+    {
+        return CGRectMake(x, y, w, h);
+    }
+    else
+    {
+        return CGRectMake(x, (y-20.f), w, h);
+    }
+}
+
+- (CGFloat)fitScrollViewHeightBy:(NSInteger)type
 {
     if ( SystemVersion_floatValue < 7.f )
     {
@@ -58,5 +75,6 @@
         return Screen_Height;
     }
 }
+
 
 @end

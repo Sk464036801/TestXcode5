@@ -21,7 +21,7 @@
                                 <rect key="frame" x="72" y="143" width="176" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <state key="normal" title="General" backgroundImage="btn.png">
+                                <state key="normal" title="VC in NC" backgroundImage="btn.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>

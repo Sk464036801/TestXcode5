@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GeneralViewController : UIViewController
+@interface VCInNC_ViewController : UIViewController
 
 @property (strong, nonatomic) UILabel *testLabel;
 

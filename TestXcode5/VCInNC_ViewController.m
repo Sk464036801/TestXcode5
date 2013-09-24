@@ -6,13 +6,13 @@
 //  Copyright (c) 2013年 Albert Chu. All rights reserved.
 //
 
-#import "GeneralViewController.h"
+#import "VCInNC_ViewController.h"
 
-@interface GeneralViewController ()
+@interface VCInNC_ViewController ()
 
 @end
 
-@implementation GeneralViewController
+@implementation VCInNC_ViewController
 
 - (void)leftBarButtonItemPressed:(UIBarButtonItem *)barButtonItem
 {
@@ -69,7 +69,7 @@
     
     
     //-- UILabel -----------------------------------------------------------------------------------
-    self.testLabel = [[UILabel alloc] initWithFrame:CGRM_BC(0, 64, 160, 50)];
+    self.testLabel = [[UILabel alloc] initWithFrame:CGRM_InNav(0, 64, 160, 50)];
     self.testLabel.font = [UIFont boldSystemFontOfSize:15.0];
     self.testLabel.backgroundColor = [UIColor yellowColor];
     self.testLabel.textColor = RGBCOLOR(80, 80, 80);
@@ -83,7 +83,7 @@
     
     
     //-- UITextView -----------------------------------------------------------------------------------
-    self.testTextView = [[UITextView alloc] initWithFrame:CGRM_BC(10, 200, 300, 200)];
+    self.testTextView = [[UITextView alloc] initWithFrame:CGRM_InNav(10, 200, 300, 200)];
     self.testTextView.font = [UIFont boldSystemFontOfSize:16.0];
     self.testTextView.backgroundColor = [UIColor lightGrayColor];
     self.testTextView.textColor = RGBCOLOR(0, 0, 0);

@@ -16,6 +16,6 @@
 
     #import "ACMacros.h"
 
-    #import "BackwardCompatibilityCGRect.h"
+    #import "FitCGRect.h"
 
 #endif
