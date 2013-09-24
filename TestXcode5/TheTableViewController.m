@@ -89,6 +89,8 @@
         
         
         //self.edgesForExtendedLayout = UIRectEdgeNone;  // iOS 7 only
+        
+        //self.automaticallyAdjustsScrollViewInsets = NO ; // 禁用自动延伸到导航栏及状态栏
     }
     
     
@@ -101,6 +103,8 @@
          tableView_.frame.size.height
          
          );
+    
+    
     
 }
 

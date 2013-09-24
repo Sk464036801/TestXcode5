@@ -37,7 +37,7 @@
     
     
     
-    //[self.navigationController.navigationBar setBackgroundImage:PNGIMAGE(@"nav_bar") forBarMetrics:UIBarMetricsDefault];
+    [self.navigationController.navigationBar setBackgroundImage:PNGIMAGE(@"nav_bar") forBarMetrics:UIBarMetricsDefault];
     
     //self.extendedLayoutIncludesOpaqueBars = YES;   // iOS 7 only
     //self.edgesForExtendedLayout = UIRectEdgeNone;  // iOS 7 only
