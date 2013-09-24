@@ -73,7 +73,7 @@
     if (SystemVersion_floatValue >= 7)
     {
         /** 禁用 分割线 自动匹配 。。 */
-        [tableView_ setSeparatorInset:UIEdgeInsetsMake(0, 30, 50, 10)];
+        //[tableView_ setSeparatorInset:UIEdgeInsetsMake(0, 30, 50, 10)];
         //tableView_.separatorInset = UIEdgeInsetsZero;
         
         DLog(@"%f,%f,%f,%f",
@@ -85,7 +85,7 @@
              
              );
         
-        // 默认： 0.000000,30.000000,50.000000,10.000000
+        // separatorInset 默认值:  0.000000,15.000000,0.000000,0.000000
         
         
         //self.edgesForExtendedLayout = UIRectEdgeNone;  // iOS 7 only
