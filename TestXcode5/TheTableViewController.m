@@ -76,7 +76,7 @@
         //[tableView_ setSeparatorInset:UIEdgeInsetsMake(0, 30, 50, 10)];
         //tableView_.separatorInset = UIEdgeInsetsZero;
         
-        DLog(@"%f,%f,%f,%f",
+        DLog(@"separatorInset:%f,%f,%f,%f",
              
              tableView_.separatorInset.top,
              tableView_.separatorInset.left,
@@ -95,12 +95,21 @@
     
     
     //---------------------------------------------------------------------------------
-    DLog(@"%f,%f,%f,%f",
+    DLog(@"tableView_frame:%f,%f,%f,%f",
          
          tableView_.frame.origin.x,
          tableView_.frame.origin.y,
          tableView_.frame.size.width,
          tableView_.frame.size.height
+         
+         );
+    
+    DLog(@"tableView_bounds:%f,%f,%f,%f",
+         
+         tableView_.bounds.origin.x,
+         tableView_.bounds.origin.y,
+         tableView_.bounds.size.width,
+         tableView_.bounds.size.height
          
          );
     
