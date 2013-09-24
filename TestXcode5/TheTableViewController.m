@@ -60,7 +60,9 @@
     tableView_.opaque = NO;
     tableView_.backgroundView = nil;
     
-    tableView_.separatorColor = [UIColor clearColor];
+    //tableView_.separatorColor = [UIColor clearColor];
+    
+    
     
     
     [tableView_ setDataSource:self];
@@ -70,6 +72,22 @@
     
     if (SystemVersion_floatValue >= 7)
     {
+        /** 禁用 分割线 自动匹配 。。 */
+        [tableView_ setSeparatorInset:UIEdgeInsetsMake(0, 30, 50, 10)];
+        //tableView_.separatorInset = UIEdgeInsetsZero;
+        
+        DLog(@"%f,%f,%f,%f",
+             
+             tableView_.separatorInset.top,
+             tableView_.separatorInset.left,
+             tableView_.separatorInset.bottom,
+             tableView_.separatorInset.right
+             
+             );
+        
+        // 默认： 0.000000,0.000000,320.000000,568.000000
+        
+        
         //self.edgesForExtendedLayout = UIRectEdgeNone;  // iOS 7 only
     }
     
